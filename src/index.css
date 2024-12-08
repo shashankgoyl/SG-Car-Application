@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background: rgb(26, 24, 24);
+  color: white;
+}
+
+.zoom{
+  transition: transform 0.5s;
+}
+.zoom:hover {
+  transform: scale(1.1)
+}
